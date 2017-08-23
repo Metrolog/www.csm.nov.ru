@@ -2,8 +2,7 @@
  * Contain Custom JS
  */
 
-(function($){
-  $(window).bind('load',function(){
+jQuery(function($){
 
     $(window).resize(function(){
     $('.bx-wrapper .slider-caption').each(function(){
@@ -83,7 +82,6 @@
       slideWidth: 170,
       slideMargin: 15
     });
-  });
 
   /*Resize the iframe video proportionally*/
    $("#page").fitVids();
@@ -229,5 +227,4 @@
       var progressWidth = that.find('.ap-progress-bar-percentage').data('width') + '%';
       that.find('.ap-progress-bar-percentage').animate({width: progressWidth}, 2000);
   });
-
-})(jQuery);
+});
