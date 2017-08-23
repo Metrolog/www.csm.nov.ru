@@ -1,4 +1,10 @@
 <?php 
+//ITG
+header('Cache-Control: public, max-age=2678400, s-maxage=2678400');
+header('Last-Modified: ' . gmdate('r'));
+header('Vary: Accept-Encoding');
+//------
+
 header("Content-type: text/css"); 
 
 $url = dirname( __FILE__ );
