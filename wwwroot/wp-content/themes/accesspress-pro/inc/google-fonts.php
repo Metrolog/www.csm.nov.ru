@@ -10,7 +10,7 @@ function accesspress_pro_get_google_webfonts_list(){
 		accesspress_pro_get_google_webfonts_list();
 	}
 
-	function accesspress_pro_googlefont_cb(){
+	function accesspress_pro_googlefont_cb_enqueue_scripts(){
 		global $accesspress_pro_options;
 		$accesspress_pro_settings = get_option( 'accesspress_pro_options', $accesspress_pro_options );
 
@@ -20,6 +20,26 @@ function accesspress_pro_get_google_webfonts_list(){
 		$bodytype = str_replace(' ' , '+', $un_bodytype);
 		$headtype = str_replace(' ' , '+', $un_headtype);
 		$font_var = '100,200,300,400,500,600,700,800,900,300italic,400italic,500,italic,600italic,700italic,900italic&subset=latin,cyrillic-ext,greek-ext,greek,vietnamese,latin-ext,cyrillic,khmer,devanagari,arabic,hebrew,telugu';
+
+		if ( $bodytype != "" ){
+			wp_enqueue_style( 'accesspress_pro_body_googleFonts', '//fonts.googleapis.com/css?family=' . $bodytype . ":" . $font_var );
+		}
+
+		if ($headtype != ""){
+			wp_enqueue_style( 'accesspress_pro_head_googleFonts', '//fonts.googleapis.com/css?family=' . $headtype . ":" . $font_var );
+		}
+	}
+	
+	add_action( 'wp_enqueue_scripts', 'accesspress_pro_googlefont_cb_enqueue_scripts' );
+
+	function accesspress_pro_googlefont_cb_head(){
+		global $accesspress_pro_options;
+		$accesspress_pro_settings = get_option( 'accesspress_pro_options', $accesspress_pro_options );
+
+		$un_bodytype = $accesspress_pro_settings['body_font'];
+		$un_headtype = $accesspress_pro_settings['heading_font'];
+		$bodytype = str_replace(' ' , '+', $un_bodytype);
+		$headtype = str_replace(' ' , '+', $un_headtype);
 		$heading_font_weight = $accesspress_pro_settings['heading_font_weight'];
 		$body_font_weight = $accesspress_pro_settings['body_font_weight'];
 		$h1_font_size = $accesspress_pro_settings['h1_font_size'];
@@ -53,14 +73,6 @@ function accesspress_pro_get_google_webfonts_list(){
 		$calltoaction_font_size = $accesspress_pro_settings['calltoaction_font_size'];
 		$calltoaction_text_align = $accesspress_pro_settings['calltoaction_text_align'];
 
-		if ( $bodytype != "" ){
-		echo "<link href='" . $http . "://fonts.googleapis.com/css?family=" . $bodytype . ":" . $font_var . "' rel='stylesheet' type='text/css'>";
-		}
-
-		if ($headtype != ""){
-		echo "<link href='" . $http . "://fonts.googleapis.com/css?family=" . $headtype . ":" . $font_var . "' rel='stylesheet' type='text/css'>";
-		}
-
 		if($background_pattern != "pattern0" && !empty($background_pattern)){
 			$background_pattern ="background-image:url(".get_template_directory_uri()."/images/patterns/".$background_pattern.".png)";
 		}
@@ -84,8 +96,8 @@ function accesspress_pro_get_google_webfonts_list(){
 		<?php echo "</style>"; ?>
 		
 	<?php }
-
-	add_action('wp_head','accesspress_pro_googlefont_cb');
+	
+	add_action( 'wp_head', 'accesspress_pro_googlefont_cb_head' );
 
 	if( !function_exists( 'wp_gwf_admin_header_init' ) ):
 	function wp_gwf_admin_header_init() {
