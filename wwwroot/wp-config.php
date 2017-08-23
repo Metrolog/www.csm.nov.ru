@@ -38,13 +38,15 @@ if ( file_exists( __DIR__ . DIRECTORY_SEPARATOR . 'wp-config-local.php' ) ) {
 	//define( 'SAVEQUERIES', true );
 	
 	if ( !defined('ABSPATH') )
-		define('ABSPATH', __DIR__ . DIRECTORY_SEPARATOR . 'wordpress' . DIRECTORY_SEPARATOR);
+		define( 'ABSPATH', __DIR__ . DIRECTORY_SEPARATOR . 'wordpress' . DIRECTORY_SEPARATOR );
 
 	define( 'WP_CONTENT_DIR', __DIR__ . DIRECTORY_SEPARATOR . 'wp-content' );
 
-	define('WP_CONTENT_URL', 'http://st.test.www.csm.nov.ru/wp-content');
-	define('COOKIE_DOMAIN', 'test.www.csm.nov.ru');
+	define( 'WP_CONTENT_URL', 'http://st.test.www.csm.nov.ru/wp-content' );
+	define( 'COOKIE_DOMAIN', 'test.www.csm.nov.ru' );
 };
+
+define( 'WPCACHEHOME', WP_CONTENT_DIR . DIRECTORY_SEPARATOR . 'plugins' . DIRECTORY_SEPARATOR . 'wp-super-cache' . DIRECTORY_SEPARATOR ); //Added by WP-Cache Manager
 
 define( 'DB_CHARSET', 'utf8' );
 define( 'DB_COLLATE', '' );
