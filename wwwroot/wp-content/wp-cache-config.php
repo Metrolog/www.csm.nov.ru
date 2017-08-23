@@ -5,11 +5,12 @@ WP-Cache Config Sample File
 See wp-cache.php for author details.
 */
 
+$dismiss_htaccess_warning = 1; //Added by WP-Cache Manager
 $wp_cache_debug_username = 'b4f5602618164b0b7ce1bc288ad31d68'; //Added by WP-Cache Manager
 $wp_cache_mobile_groups = ''; //Added by WP-Cache Manager
 $wpsc_save_headers = 0; //Added by WP-Cache Manager
 $dismiss_readable_warning = 1; //Added by WP-Cache Manager
-$wp_cache_home_path = '/'; //Added by WP-Cache Manager
+$wp_cache_home_path = '/wordpress/'; //Added by WP-Cache Manager
 $wp_cache_slash_check = 1; //Added by WP-Cache Manager
 $cache_page_secret = '55d264da498370b022ead75a4bec6d8b'; //Added by WP-Cache Manager
 if ( ! defined('WPCACHEHOME') )
