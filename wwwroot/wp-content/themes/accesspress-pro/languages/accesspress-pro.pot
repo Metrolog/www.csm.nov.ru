@@ -1,0 +1,2893 @@
+# Loco Gettext template
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: Accesspress Pro 2.5\n"
+"Report-Msgid-Bugs-To: support@accesspressthemes.com\n"
+"POT-Creation-Date: Mon Dec 21 2015 17:10:48 GMT+0545 (Nepal Standard Time)\n"
+"POT-Revision-Date: Fri Jun 17 2016 15:16:09 GMT+0545 (Nepal Standard Time)\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: Prabin Dangol <prabin@access-keys.com>\n"
+"Language-Team: English <support@accesspressthemes.com>\n"
+"Language: \n"
+"Plural-Forms: nplurals=INTEGER; plural=EXPRESSION\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Poedit-SourceCharset: UTF-8\n"
+"X-Poedit-Basepath: .\n"
+"X-Poedit-SearchPath-0: ..\n"
+"X-Poedit-KeywordsList: _:1;gettext:1;dgettext:2;ngettext:1,2;dngettext:2,3;"
+"__:1;_e:1;_c:1;_n:1,2;_n_noop:1,2;_nc:1,2;__ngettext:1,2;__ngettext_noop:1,2;"
+"_x:1,2c;_ex:1,2c;_nx:1,2,4c;_nx_noop:1,2,3c;_n_js:1,2;_nx_js:1,2,3c;"
+"esc_attr__:1;esc_html__:1;esc_attr_e:1;esc_html_e:1;esc_attr_x:1,2c;"
+"esc_html_x:1,2c;comments_number_link:2,3;t:1;st:1;trans:1;transChoice:1,2\n"
+"X-Generator: Loco - https://localise.biz/"
+
+#: ../404.php:21
+msgid "Oops! That page can&rsquo;t be found."
+msgstr ""
+
+#: ../404.php:26
+msgid "It looks like nothing was found at this location."
+msgstr ""
+
+#: ../archive.php:30
+#, php-format
+msgid "Author: %s"
+msgstr ""
+
+#: ../archive.php:33
+#, php-format
+msgid "Day: %s"
+msgstr ""
+
+#: ../archive.php:36
+#, php-format
+msgid "Month: %s"
+msgstr ""
+
+#: ../archive.php:36
+msgctxt "monthly archives date format"
+msgid "F Y"
+msgstr ""
+
+#: ../archive.php:39
+#, php-format
+msgid "Year: %s"
+msgstr ""
+
+#: ../archive.php:39
+msgctxt "yearly archives date format"
+msgid "Y"
+msgstr ""
+
+#: ../archive.php:42
+msgid "Asides"
+msgstr ""
+
+#: ../archive.php:45
+msgid "Galleries"
+msgstr ""
+
+#: ../archive.php:48
+msgid "Images"
+msgstr ""
+
+#: ../archive.php:51
+msgid "Videos"
+msgstr ""
+
+#: ../archive.php:54
+msgid "Quotes"
+msgstr ""
+
+#: ../archive.php:57
+msgid "Links"
+msgstr ""
+
+#: ../archive.php:60
+msgid "Statuses"
+msgstr ""
+
+#: ../archive.php:63
+msgid "Audios"
+msgstr ""
+
+#: ../archive.php:66
+msgid "Chats"
+msgstr ""
+
+#: ../archive.php:69
+msgid "Archives"
+msgstr ""
+
+#: ../comments.php:28
+#, php-format
+msgctxt "comments title"
+msgid "One thought on &ldquo;%2$s&rdquo;"
+msgid_plural "%1$s thoughts on &ldquo;%2$s&rdquo;"
+msgstr[0] ""
+msgstr[1] ""
+
+#: ../comments.php:35 ../comments.php:52
+msgid "Comment navigation"
+msgstr ""
+
+#: ../comments.php:36 ../comments.php:53
+msgid "&larr; Older Comments"
+msgstr ""
+
+#: ../comments.php:37 ../comments.php:54
+msgid "Newer Comments &rarr;"
+msgstr ""
+
+#: ../comments.php:64
+msgid "Comments are closed."
+msgstr ""
+
+#: ../content-none.php:13
+msgid "Nothing Found"
+msgstr ""
+
+#: ../content-none.php:19
+#, php-format
+msgid "Ready to publish your first post? <a href=\"%1$s\">Get started here</a>."
+msgstr ""
+
+#: ../content-none.php:23
+msgid ""
+"Sorry, but nothing matched your search terms. Please try again with some "
+"different keywords."
+msgstr ""
+
+#: ../content-none.php:28
+msgid ""
+"It seems we can&rsquo;t find what you&rsquo;re looking for. Perhaps "
+"searching can help."
+msgstr ""
+
+#: ../content-search.php:30 ../content-search.php:40 ../content-summary.php:47 ..
+#: /content-summary.php:57 ../content.php:32 ../content.php:42
+msgid ", "
+msgstr ""
+
+#: ../content-search.php:34 ../content-summary.php:51 ../content.php:36
+#, php-format
+msgid "Posted in %1$s"
+msgstr ""
+
+#: ../content-search.php:44 ../content-summary.php:61 ../content.php:46
+#, php-format
+msgid "Tagged %1$s"
+msgstr ""
+
+#: ../content-search.php:50 ../content-summary.php:67 ../content.php:52
+msgid "Leave a comment"
+msgstr ""
+
+#: ../content-search.php:50 ../content-summary.php:67 ../content.php:52
+msgid "1 Comment"
+msgstr ""
+
+#: ../content-search.php:50 ../content-summary.php:67 ../content.php:52
+#, php-format
+msgid "% Comments"
+msgstr ""
+
+#: ../content-search.php:53 ../content-single.php:51 ../content.php:55 ../page-
+#: events.php:110 ../page.php:60
+msgid "Edit"
+msgstr ""
+
+#: ../content.php:19
+msgid "Continue reading <span class=\"meta-nav\">&rarr;</span>"
+msgstr ""
+
+#: ../content.php:22 ../page.php:55
+msgid "Pages:"
+msgstr ""
+
+#: ../footer.php:61
+msgid "Copyright"
+msgstr ""
+
+#: ../footer.php:72
+msgid "Top"
+msgstr ""
+
+#: ../functions.php:61
+msgid "Primary Menu"
+msgstr ""
+
+#. Name of the template
+msgid "Events"
+msgstr ""
+
+#: ../page-events.php:52
+msgid "Order"
+msgstr ""
+
+#: ../page-events.php:53
+msgid "Posted Date"
+msgstr ""
+
+#: ../page-events.php:54
+msgid "Alphabetical Order"
+msgstr ""
+
+#: ../page-events.php:55 ../inc/accesspress-functions.php:1255
+msgid "Event Date"
+msgstr ""
+
+#: ../page-events.php:59
+msgid "Sort"
+msgstr ""
+
+#: ../page-events.php:60
+msgid "Ascending"
+msgstr ""
+
+#: ../page-events.php:61
+msgid "Descending"
+msgstr ""
+
+#. Name of the template
+msgid "FAQ"
+msgstr ""
+
+#. Name of the template
+msgid "Portfolio"
+msgstr ""
+
+#: ../page-porfolio.php:59
+msgid "Category"
+msgstr ""
+
+#: ../page-porfolio.php:60
+msgid "All"
+msgstr ""
+
+#: ../search.php:18
+#, php-format
+msgid "Search Results for: %s"
+msgstr ""
+
+#: ../searchform.php:9
+msgid "Search..."
+msgstr ""
+
+#: ../header/header-style1.php:48 ../header/header-style2.php:44 ../header/header-
+#: style3.php:44 ../header/header-style4.php:52
+msgid "Menu"
+msgstr ""
+
+#: ../inc/accesspress-functions.php:65
+msgid "Left Sidebar"
+msgstr ""
+
+#: ../inc/accesspress-functions.php:75
+msgid "Right Sidebar"
+msgstr ""
+
+#: ../inc/accesspress-functions.php:85
+msgid "Event Sidebar"
+msgstr ""
+
+#: ../inc/accesspress-functions.php:95
+msgid "Shop Sidebar"
+msgstr ""
+
+#: ../inc/accesspress-functions.php:105
+msgid "Featured Bar Column One"
+msgstr ""
+
+#: ../inc/accesspress-functions.php:115
+msgid "Featured Bar Column Two"
+msgstr ""
+
+#: ../inc/accesspress-functions.php:125
+msgid "Featured Bar Column Three"
+msgstr ""
+
+#: ../inc/accesspress-functions.php:135
+msgid "Home Page Featured Text"
+msgstr ""
+
+#: ../inc/accesspress-functions.php:145
+msgid "Left Block above footer"
+msgstr ""
+
+#: ../inc/accesspress-functions.php:155
+msgid "Middle Block above footer"
+msgstr ""
+
+#: ../inc/accesspress-functions.php:165
+msgid "Right Block above footer"
+msgstr ""
+
+#: ../inc/accesspress-functions.php:175
+msgid "Footer Area Column One"
+msgstr ""
+
+#: ../inc/accesspress-functions.php:185
+msgid "Footer Area Column Two"
+msgstr ""
+
+#: ../inc/accesspress-functions.php:195
+msgid "Footer Area Column Three"
+msgstr ""
+
+#: ../inc/accesspress-functions.php:205
+msgid "Footer Area Column Four"
+msgstr ""
+
+#: ../inc/accesspress-functions.php:215
+msgid "Widget Block one"
+msgstr ""
+
+#: ../inc/accesspress-functions.php:225
+msgid "Widget Block Two"
+msgstr ""
+
+#: ../inc/accesspress-functions.php:235
+msgid "Widget Block Three"
+msgstr ""
+
+#: ../inc/accesspress-functions.php:609 ../inc/admin-panel/theme-options.php:831 .
+#: ./inc/admin-panel/theme-options.php:1766
+msgid "Upload Logo"
+msgstr ""
+
+#: ../inc/accesspress-functions.php:615
+msgid "Upload Clients Image"
+msgstr ""
+
+#: ../inc/accesspress-functions.php:635 ../inc/admin-panel/theme-options.php:71
+msgid "Home"
+msgstr ""
+
+#: ../inc/accesspress-functions.php:655
+msgid "Archive by category"
+msgstr ""
+
+#: ../inc/accesspress-functions.php:658
+msgid "Search results for"
+msgstr ""
+
+#: ../inc/accesspress-functions.php:713
+msgid "Posts tagged"
+msgstr ""
+
+#: ../inc/accesspress-functions.php:718
+msgid "Articles posted by"
+msgstr ""
+
+#: ../inc/accesspress-functions.php:721
+msgid "Error 404"
+msgstr ""
+
+#: ../inc/accesspress-functions.php:726
+msgid "Page"
+msgstr ""
+
+#: ../inc/accesspress-functions.php:1153
+msgctxt "breadcrumb"
+msgid "Home"
+msgstr ""
+
+#: ../inc/accesspress-functions.php:1256
+msgid "Event Expiry"
+msgstr ""
+
+#: ../inc/accesspress-functions.php:1257
+msgid "Date"
+msgstr ""
+
+#: ../inc/accesspress-functions.php:1275
+msgid "Expired"
+msgstr ""
+
+#: ../inc/accesspress-functions.php:1277
+msgid "Not Expired"
+msgstr ""
+
+#: ../inc/accesspress-metabox.php:90
+msgid "Choose Sidebar Template"
+msgstr ""
+
+#: ../inc/accesspress-metabox.php:111
+msgid "You can set up the sidebar content"
+msgstr ""
+
+#: ../inc/accesspress-metabox.php:111 ../inc/admin-panel/theme-options.php:664
+msgid "here"
+msgstr ""
+
+#: ../inc/accesspress-metabox.php:162
+msgid "Upload the Header Image"
+msgstr ""
+
+#: ../inc/accesspress-metabox.php:172 ../inc/accesspress-metabox.php:175 ..
+#: /inc/admin-panel/theme-options.php:518 ../inc/admin-panel/theme-options.php:
+#: 523 ../inc/admin-panel/theme-options.php:932 ../inc/admin-panel/theme-options.
+#: php:1779 ../inc/admin-panel/theme-options.php:1784 ../inc/widgets/widget-
+#: fields.php:185 ../inc/widgets/widget-fields.php:757
+msgid "Remove"
+msgstr ""
+
+#: ../inc/accesspress-metabox.php:181
+msgid "Upload header Image"
+msgstr ""
+
+#: ../inc/accesspress-metabox.php:228
+msgid "Enter the Event Date"
+msgstr ""
+
+#: ../inc/accesspress-metabox.php:249
+msgid "Jan"
+msgstr ""
+
+#: ../inc/accesspress-metabox.php:250
+msgid "Feb"
+msgstr ""
+
+#: ../inc/accesspress-metabox.php:251
+msgid "Mar"
+msgstr ""
+
+#: ../inc/accesspress-metabox.php:252
+msgid "Apr"
+msgstr ""
+
+#: ../inc/accesspress-metabox.php:253
+msgid "May"
+msgstr ""
+
+#: ../inc/accesspress-metabox.php:254
+msgid "Jun"
+msgstr ""
+
+#: ../inc/accesspress-metabox.php:255
+msgid "Jul"
+msgstr ""
+
+#: ../inc/accesspress-metabox.php:256
+msgid "Aug"
+msgstr ""
+
+#: ../inc/accesspress-metabox.php:257
+msgid "Sep"
+msgstr ""
+
+#: ../inc/accesspress-metabox.php:258
+msgid "Oct"
+msgstr ""
+
+#: ../inc/accesspress-metabox.php:259
+msgid "Nov"
+msgstr ""
+
+#: ../inc/accesspress-metabox.php:260
+msgid "Dec"
+msgstr ""
+
+#: ../inc/accesspress-posts-types.php:9
+msgctxt "post type general name"
+msgid "Logos"
+msgstr ""
+
+#: ../inc/accesspress-posts-types.php:10
+msgctxt "post type singular name"
+msgid "Logo"
+msgstr ""
+
+#: ../inc/accesspress-posts-types.php:11
+msgctxt "Logo"
+msgid "Add New"
+msgstr ""
+
+#: ../inc/accesspress-posts-types.php:12
+msgid "Add New Logo"
+msgstr ""
+
+#: ../inc/accesspress-posts-types.php:13
+msgid "Edit Logo"
+msgstr ""
+
+#: ../inc/accesspress-posts-types.php:14
+msgid "New Logo"
+msgstr ""
+
+#: ../inc/accesspress-posts-types.php:15
+msgid "All Logo"
+msgstr ""
+
+#: ../inc/accesspress-posts-types.php:16
+msgid "View Logo"
+msgstr ""
+
+#: ../inc/accesspress-posts-types.php:17
+msgid "Search Logo"
+msgstr ""
+
+#: ../inc/accesspress-posts-types.php:18
+msgid "No Logo found"
+msgstr ""
+
+#: ../inc/accesspress-posts-types.php:19
+msgid "No Logo found in the Trash"
+msgstr ""
+
+#: ../inc/accesspress-posts-types.php:40
+msgctxt "post type general name"
+msgid "Testimonials"
+msgstr ""
+
+#: ../inc/accesspress-posts-types.php:41
+msgctxt "post type singular name"
+msgid "Testimonial"
+msgstr ""
+
+#: ../inc/accesspress-posts-types.php:42
+msgctxt "Testimonial"
+msgid "Add New"
+msgstr ""
+
+#: ../inc/accesspress-posts-types.php:43
+msgid "Add New Testimonial"
+msgstr ""
+
+#: ../inc/accesspress-posts-types.php:44
+msgid "Edit Testimonial"
+msgstr ""
+
+#: ../inc/accesspress-posts-types.php:45
+msgid "New Testimonial"
+msgstr ""
+
+#: ../inc/accesspress-posts-types.php:46
+msgid "All Testimonial"
+msgstr ""
+
+#: ../inc/accesspress-posts-types.php:47
+msgid "View Testimonial"
+msgstr ""
+
+#: ../inc/accesspress-posts-types.php:48
+msgid "Search Testimonial"
+msgstr ""
+
+#: ../inc/accesspress-posts-types.php:49
+msgid "No Testimonial found"
+msgstr ""
+
+#: ../inc/accesspress-posts-types.php:50
+msgid "No Testimonial found in the Trash"
+msgstr ""
+
+#: ../inc/accesspress-posts-types.php:71
+msgctxt "post type general name"
+msgid "Events"
+msgstr ""
+
+#: ../inc/accesspress-posts-types.php:72
+msgctxt "post type singular name"
+msgid "Event"
+msgstr ""
+
+#: ../inc/accesspress-posts-types.php:73
+msgctxt "Event"
+msgid "Add New"
+msgstr ""
+
+#: ../inc/accesspress-posts-types.php:74
+msgid "Add New Event"
+msgstr ""
+
+#: ../inc/accesspress-posts-types.php:75
+msgid "Edit Event"
+msgstr ""
+
+#: ../inc/accesspress-posts-types.php:76
+msgid "New Event"
+msgstr ""
+
+#: ../inc/accesspress-posts-types.php:77
+msgid "All Event"
+msgstr ""
+
+#: ../inc/accesspress-posts-types.php:78
+msgid "View Event"
+msgstr ""
+
+#: ../inc/accesspress-posts-types.php:79
+msgid "Search Event"
+msgstr ""
+
+#: ../inc/accesspress-posts-types.php:80
+msgid "No Event found"
+msgstr ""
+
+#: ../inc/accesspress-posts-types.php:81
+msgid "No Event found in the Trash"
+msgstr ""
+
+#: ../inc/accesspress-posts-types.php:101
+msgctxt "post type general name"
+msgid "FAQ"
+msgstr ""
+
+#: ../inc/accesspress-posts-types.php:102
+msgctxt "post type singular name"
+msgid "FAQ"
+msgstr ""
+
+#: ../inc/accesspress-posts-types.php:103
+msgctxt "FAQ"
+msgid "Add New"
+msgstr ""
+
+#: ../inc/accesspress-posts-types.php:104
+msgid "Add New FAQ"
+msgstr ""
+
+#: ../inc/accesspress-posts-types.php:105
+msgid "Edit FAQ"
+msgstr ""
+
+#: ../inc/accesspress-posts-types.php:106
+msgid "New FAQ"
+msgstr ""
+
+#: ../inc/accesspress-posts-types.php:107
+msgid "All FAQ"
+msgstr ""
+
+#: ../inc/accesspress-posts-types.php:108
+msgid "View FAQ"
+msgstr ""
+
+#: ../inc/accesspress-posts-types.php:109
+msgid "Search FAQ"
+msgstr ""
+
+#: ../inc/accesspress-posts-types.php:110
+msgid "No FAQ found"
+msgstr ""
+
+#: ../inc/accesspress-posts-types.php:111
+msgid "No FAQ found in the Trash"
+msgstr ""
+
+#: ../inc/accesspress-posts-types.php:131
+msgctxt "post type general name"
+msgid "Portfolios"
+msgstr ""
+
+#: ../inc/accesspress-posts-types.php:132
+msgctxt "post type singular name"
+msgid "Portfolio"
+msgstr ""
+
+#: ../inc/accesspress-posts-types.php:133
+msgctxt "Portfolio"
+msgid "Add New"
+msgstr ""
+
+#: ../inc/accesspress-posts-types.php:134
+msgid "Add New Portfolio"
+msgstr ""
+
+#: ../inc/accesspress-posts-types.php:135
+msgid "Edit Portfolio"
+msgstr ""
+
+#: ../inc/accesspress-posts-types.php:136
+msgid "New Portfolio"
+msgstr ""
+
+#: ../inc/accesspress-posts-types.php:137
+msgid "All Portfolio"
+msgstr ""
+
+#: ../inc/accesspress-posts-types.php:138
+msgid "View Portfolio"
+msgstr ""
+
+#: ../inc/accesspress-posts-types.php:139
+msgid "Search Portfolio"
+msgstr ""
+
+#: ../inc/accesspress-posts-types.php:140
+msgid "No Portfolio found"
+msgstr ""
+
+#: ../inc/accesspress-posts-types.php:141
+msgid "No Portfolio found in the Trash"
+msgstr ""
+
+#: ../inc/accesspress-posts-types.php:161
+msgctxt "taxonomy general name"
+msgid "Portfolio Categories"
+msgstr ""
+
+#: ../inc/accesspress-posts-types.php:162
+msgctxt "taxonomy singular name"
+msgid "Portfolio Category"
+msgstr ""
+
+#: ../inc/accesspress-posts-types.php:163
+msgid "Search Portfolio Categories"
+msgstr ""
+
+#: ../inc/accesspress-posts-types.php:164
+msgid "All Portfolio Categories"
+msgstr ""
+
+#: ../inc/accesspress-posts-types.php:165
+msgid "Parent Portfolio Category"
+msgstr ""
+
+#: ../inc/accesspress-posts-types.php:166
+msgid "Parent Portfolio Category:"
+msgstr ""
+
+#: ../inc/accesspress-posts-types.php:167
+msgid "Edit Portfolio Category"
+msgstr ""
+
+#: ../inc/accesspress-posts-types.php:168
+msgid "Update Portfolio Category"
+msgstr ""
+
+#: ../inc/accesspress-posts-types.php:169
+msgid "Add New Portfolio Category"
+msgstr ""
+
+#: ../inc/accesspress-posts-types.php:170
+msgid "New Portfolio Category"
+msgstr ""
+
+#: ../inc/accesspress-posts-types.php:171
+msgid "Portfolio Categories"
+msgstr ""
+
+#: ../inc/class-tgm-plugin-activation.php:327
+msgid "Install Required Plugins"
+msgstr ""
+
+#: ../inc/class-tgm-plugin-activation.php:328
+msgid "Install Plugins"
+msgstr ""
+
+#: ../inc/class-tgm-plugin-activation.php:330
+#, php-format
+msgid "Installing Plugin: %s"
+msgstr ""
+
+#. translators: %s: plugin name.
+#: ../inc/class-tgm-plugin-activation.php:332
+#, php-format
+msgid "Updating Plugin: %s"
+msgstr ""
+
+#: ../inc/class-tgm-plugin-activation.php:333
+msgid "Something went wrong with the plugin API."
+msgstr ""
+
+#: ../inc/class-tgm-plugin-activation.php:370
+msgid "Begin installing plugin"
+msgid_plural "Begin installing plugins"
+msgstr[0] ""
+msgstr[1] ""
+
+#: ../inc/class-tgm-plugin-activation.php:375
+msgid "Begin updating plugin"
+msgid_plural "Begin updating plugins"
+msgstr[0] ""
+msgstr[1] ""
+
+#: ../inc/class-tgm-plugin-activation.php:380
+msgid "Begin activating plugin"
+msgid_plural "Begin activating plugins"
+msgstr[0] ""
+msgstr[1] ""
+
+#: ../inc/class-tgm-plugin-activation.php:385
+msgid "Return to Required Plugins Installer"
+msgstr ""
+
+#: ../inc/class-tgm-plugin-activation.php:386 ../inc/class-tgm-plugin-activation.
+#: php:827 ../inc/class-tgm-plugin-activation.php:2533 ../inc/class-tgm-plugin-
+#: activation.php:3580
+msgid "Return to the Dashboard"
+msgstr ""
+
+#: ../inc/class-tgm-plugin-activation.php:387 ../inc/class-tgm-plugin-activation.
+#: php:3159
+msgid "Plugin activated successfully."
+msgstr ""
+
+#: ../inc/class-tgm-plugin-activation.php:388 ../inc/class-tgm-plugin-activation.
+#: php:2952
+msgid "The following plugin was activated successfully:"
+msgstr ""
+
+#: ../inc/class-tgm-plugin-activation.php:390
+#, php-format
+msgid "No action taken. Plugin %1$s was already active."
+msgstr ""
+
+#: ../inc/class-tgm-plugin-activation.php:392
+#, php-format
+msgid ""
+"Plugin not activated. A higher version of %s is needed for this theme. "
+"Please update the plugin."
+msgstr ""
+
+#: ../inc/class-tgm-plugin-activation.php:394
+#, php-format
+msgid "All plugins installed and activated successfully. %1$s"
+msgstr ""
+
+#: ../inc/class-tgm-plugin-activation.php:395
+msgid "Dismiss this notice"
+msgstr ""
+
+#: ../inc/class-tgm-plugin-activation.php:396
+msgid ""
+"There are one or more required or recommended plugins to install, update or "
+"activate."
+msgstr ""
+
+#: ../inc/class-tgm-plugin-activation.php:397
+msgid "Please contact the administrator of this site for help."
+msgstr ""
+
+#: ../inc/class-tgm-plugin-activation.php:522
+msgid "This plugin needs to be updated to be compatible with your theme."
+msgstr ""
+
+#: ../inc/class-tgm-plugin-activation.php:523
+msgid "Update Required"
+msgstr ""
+
+#: ../inc/class-tgm-plugin-activation.php:934
+msgid ""
+"The remote plugin package does not contain a folder with the desired slug "
+"and renaming did not work."
+msgstr ""
+
+#: ../inc/class-tgm-plugin-activation.php:934 ../inc/class-tgm-plugin-activation.
+#: php:937
+msgid ""
+"Please contact the plugin provider and ask them to package their plugin "
+"according to the WordPress guidelines."
+msgstr ""
+
+#: ../inc/class-tgm-plugin-activation.php:937
+msgid ""
+"The remote plugin package consists of more than one file, but the files are "
+"not packaged in a folder."
+msgstr ""
+
+#: ../inc/class-tgm-plugin-activation.php:1121 ../inc/class-tgm-plugin-activation.
+#: php:2948
+msgctxt "plugin A *and* plugin B"
+msgid "and"
+msgstr ""
+
+#. translators: %s: version number
+#: ../inc/class-tgm-plugin-activation.php:1982
+#, php-format
+msgid "TGMPA v%s"
+msgstr ""
+
+#: ../inc/class-tgm-plugin-activation.php:2273
+msgid "Required"
+msgstr ""
+
+#: ../inc/class-tgm-plugin-activation.php:2276
+msgid "Recommended"
+msgstr ""
+
+#: ../inc/class-tgm-plugin-activation.php:2292
+msgid "WordPress Repository"
+msgstr ""
+
+#: ../inc/class-tgm-plugin-activation.php:2295
+msgid "External Source"
+msgstr ""
+
+#: ../inc/class-tgm-plugin-activation.php:2298
+msgid "Pre-Packaged"
+msgstr ""
+
+#: ../inc/class-tgm-plugin-activation.php:2315
+msgid "Not Installed"
+msgstr ""
+
+#: ../inc/class-tgm-plugin-activation.php:2319
+msgid "Installed But Not Activated"
+msgstr ""
+
+#: ../inc/class-tgm-plugin-activation.php:2321
+msgid "Active"
+msgstr ""
+
+#: ../inc/class-tgm-plugin-activation.php:2327
+msgid "Required Update not Available"
+msgstr ""
+
+#: ../inc/class-tgm-plugin-activation.php:2330
+msgid "Requires Update"
+msgstr ""
+
+#: ../inc/class-tgm-plugin-activation.php:2333
+msgid "Update recommended"
+msgstr ""
+
+#. translators: 1: install status, 2: update status
+#: ../inc/class-tgm-plugin-activation.php:2342
+#, php-format
+msgctxt "Install/Update Status"
+msgid "%1$s, %2$s"
+msgstr ""
+
+#: ../inc/class-tgm-plugin-activation.php:2388
+#, php-format
+msgctxt "plugins"
+msgid "All <span class=\"count\">(%s)</span>"
+msgid_plural "All <span class=\"count\">(%s)</span>"
+msgstr[0] ""
+msgstr[1] ""
+
+#: ../inc/class-tgm-plugin-activation.php:2392
+#, php-format
+msgid "To Install <span class=\"count\">(%s)</span>"
+msgid_plural "To Install <span class=\"count\">(%s)</span>"
+msgstr[0] ""
+msgstr[1] ""
+
+#: ../inc/class-tgm-plugin-activation.php:2396
+#, php-format
+msgid "Update Available <span class=\"count\">(%s)</span>"
+msgid_plural "Update Available <span class=\"count\">(%s)</span>"
+msgstr[0] ""
+msgstr[1] ""
+
+#: ../inc/class-tgm-plugin-activation.php:2400
+#, php-format
+msgid "To Activate <span class=\"count\">(%s)</span>"
+msgid_plural "To Activate <span class=\"count\">(%s)</span>"
+msgstr[0] ""
+msgstr[1] ""
+
+#: ../inc/class-tgm-plugin-activation.php:2482
+msgctxt "as in: \"version nr unknown\""
+msgid "unknown"
+msgstr ""
+
+#: ../inc/class-tgm-plugin-activation.php:2490
+msgid "Installed version:"
+msgstr ""
+
+#: ../inc/class-tgm-plugin-activation.php:2498
+msgid "Minimum required version:"
+msgstr ""
+
+#: ../inc/class-tgm-plugin-activation.php:2510
+msgid "Available version:"
+msgstr ""
+
+#: ../inc/class-tgm-plugin-activation.php:2533
+msgid "No plugins to install, update or activate."
+msgstr ""
+
+#: ../inc/class-tgm-plugin-activation.php:2547
+msgid "Plugin"
+msgstr ""
+
+#: ../inc/class-tgm-plugin-activation.php:2548
+msgid "Source"
+msgstr ""
+
+#: ../inc/class-tgm-plugin-activation.php:2549
+msgid "Type"
+msgstr ""
+
+#: ../inc/class-tgm-plugin-activation.php:2553
+msgid "Version"
+msgstr ""
+
+#: ../inc/class-tgm-plugin-activation.php:2554
+msgid "Status"
+msgstr ""
+
+#. translators: %2$s: plugin name in screen reader markup
+#: ../inc/class-tgm-plugin-activation.php:2603
+#, php-format
+msgid "Install %2$s"
+msgstr ""
+
+#. translators: %2$s: plugin name in screen reader markup
+#: ../inc/class-tgm-plugin-activation.php:2608
+#, php-format
+msgid "Update %2$s"
+msgstr ""
+
+#. translators: %2$s: plugin name in screen reader markup
+#: ../inc/class-tgm-plugin-activation.php:2614
+#, php-format
+msgid "Activate %2$s"
+msgstr ""
+
+#: ../inc/class-tgm-plugin-activation.php:2684
+msgid "Upgrade message from the plugin author:"
+msgstr ""
+
+#: ../inc/class-tgm-plugin-activation.php:2717
+msgid "Install"
+msgstr ""
+
+#: ../inc/class-tgm-plugin-activation.php:2723
+msgid "Update"
+msgstr ""
+
+#: ../inc/class-tgm-plugin-activation.php:2726
+msgid "Activate"
+msgstr ""
+
+#: ../inc/class-tgm-plugin-activation.php:2757
+msgid "No plugins were selected to be installed. No action taken."
+msgstr ""
+
+#: ../inc/class-tgm-plugin-activation.php:2759
+msgid "No plugins were selected to be updated. No action taken."
+msgstr ""
+
+#: ../inc/class-tgm-plugin-activation.php:2800
+msgid "No plugins are available to be installed at this time."
+msgstr ""
+
+#: ../inc/class-tgm-plugin-activation.php:2802
+msgid "No plugins are available to be updated at this time."
+msgstr ""
+
+#: ../inc/class-tgm-plugin-activation.php:2908
+msgid "No plugins were selected to be activated. No action taken."
+msgstr ""
+
+#: ../inc/class-tgm-plugin-activation.php:2934
+msgid "No plugins are available to be activated at this time."
+msgstr ""
+
+#: ../inc/class-tgm-plugin-activation.php:3158
+msgid "Plugin activation failed."
+msgstr ""
+
+#: ../inc/class-tgm-plugin-activation.php:3498
+#, php-format
+msgid "Updating Plugin %1$s (%2$d/%3$d)"
+msgstr ""
+
+#: ../inc/class-tgm-plugin-activation.php:3501
+#, php-format
+msgid "An error occurred while installing %1$s: <strong>%2$s</strong>."
+msgstr ""
+
+#: ../inc/class-tgm-plugin-activation.php:3503
+#, php-format
+msgid "The installation of %1$s failed."
+msgstr ""
+
+#: ../inc/class-tgm-plugin-activation.php:3507
+msgid ""
+"The installation and activation process is starting. This process may take a "
+"while on some hosts, so please be patient."
+msgstr ""
+
+#: ../inc/class-tgm-plugin-activation.php:3509
+#, php-format
+msgid "%1$s installed and activated successfully."
+msgstr ""
+
+#: ../inc/class-tgm-plugin-activation.php:3509 ../inc/class-tgm-plugin-activation.
+#: php:3517
+msgid "Show Details"
+msgstr ""
+
+#: ../inc/class-tgm-plugin-activation.php:3509 ../inc/class-tgm-plugin-activation.
+#: php:3517
+msgid "Hide Details"
+msgstr ""
+
+#: ../inc/class-tgm-plugin-activation.php:3510
+msgid "All installations and activations have been completed."
+msgstr ""
+
+#: ../inc/class-tgm-plugin-activation.php:3512
+#, php-format
+msgid "Installing and Activating Plugin %1$s (%2$d/%3$d)"
+msgstr ""
+
+#: ../inc/class-tgm-plugin-activation.php:3515
+msgid ""
+"The installation process is starting. This process may take a while on some "
+"hosts, so please be patient."
+msgstr ""
+
+#: ../inc/class-tgm-plugin-activation.php:3517
+#, php-format
+msgid "%1$s installed successfully."
+msgstr ""
+
+#: ../inc/class-tgm-plugin-activation.php:3518
+msgid "All installations have been completed."
+msgstr ""
+
+#: ../inc/class-tgm-plugin-activation.php:3520
+#, php-format
+msgid "Installing Plugin %1$s (%2$d/%3$d)"
+msgstr ""
+
+#: ../inc/template-tags.php:24
+msgid "<span class=\"meta-nav\">&larr;</span> Older posts"
+msgstr ""
+
+#: ../inc/template-tags.php:28
+msgid "Newer posts <span class=\"meta-nav\">&rarr;</span>"
+msgstr ""
+
+#: ../inc/template-tags.php:80
+#, php-format
+msgctxt "post date"
+msgid "Posted on %s"
+msgstr ""
+
+#: ../inc/template-tags.php:85
+#, php-format
+msgctxt "post author"
+msgid "by %s"
+msgstr ""
+
+#: ../inc/admin-panel/theme-options.php:30 ../inc/admin-panel/theme-options.php:
+#: 76 ../inc/admin-panel/theme-options.php:104 ../inc/admin-panel/theme-options.
+#: php:144
+msgid "Read More"
+msgstr ""
+
+#: ../inc/admin-panel/theme-options.php:41
+msgid "Email:email@gmail.com"
+msgstr ""
+
+#: ../inc/admin-panel/theme-options.php:77
+msgid "Latest Event"
+msgstr ""
+
+#: ../inc/admin-panel/theme-options.php:142
+msgid "Call To action Text"
+msgstr ""
+
+#: ../inc/admin-panel/theme-options.php:146
+msgid "Our Clients"
+msgstr ""
+
+#: ../inc/admin-panel/theme-options.php:168
+msgid "New website coming soon!"
+msgstr ""
+
+#: ../inc/admin-panel/theme-options.php:169
+msgid "Get in touch through our social networks."
+msgstr ""
+
+#: ../inc/admin-panel/theme-options.php:205 ../inc/admin-panel/theme-options.php:
+#: 205
+msgid "Theme Options"
+msgstr ""
+
+#: ../inc/admin-panel/theme-options.php:294
+msgid "AccessPress Lite Slider"
+msgstr ""
+
+#: ../inc/admin-panel/theme-options.php:295
+msgid "AccessPress Pro Slider"
+msgstr ""
+
+#: ../inc/admin-panel/theme-options.php:296
+msgid "Revolution Slider"
+msgstr ""
+
+#: ../inc/admin-panel/theme-options.php:359
+msgid " - Theme Option Panel"
+msgstr ""
+
+#: ../inc/admin-panel/theme-options.php:364
+msgid "Like/Follow us for New Updates"
+msgstr ""
+
+#: ../inc/admin-panel/theme-options.php:370
+msgid "Online Documentation"
+msgstr ""
+
+#: ../inc/admin-panel/theme-options.php:371
+msgid "Support Forum"
+msgstr ""
+
+#: ../inc/admin-panel/theme-options.php:378
+msgid "Options saved"
+msgstr ""
+
+#: ../inc/admin-panel/theme-options.php:384 ../inc/admin-panel/theme-options.php:
+#: 439
+msgid "Basic Settings"
+msgstr ""
+
+#: ../inc/admin-panel/theme-options.php:385 ../inc/admin-panel/theme-options.php:
+#: 565
+msgid "Home Page Settings"
+msgstr ""
+
+#: ../inc/admin-panel/theme-options.php:386
+msgid "Call To Action (Home)"
+msgstr ""
+
+#: ../inc/admin-panel/theme-options.php:387
+msgid "Header Settings"
+msgstr ""
+
+#: ../inc/admin-panel/theme-options.php:388
+msgid "Footer Settings"
+msgstr ""
+
+#: ../inc/admin-panel/theme-options.php:389
+msgid "Slider Image"
+msgstr ""
+
+#: ../inc/admin-panel/theme-options.php:390
+msgid "Slider Settings"
+msgstr ""
+
+#: ../inc/admin-panel/theme-options.php:391
+msgid "Typography"
+msgstr ""
+
+#: ../inc/admin-panel/theme-options.php:392 ../inc/admin-panel/theme-options.php:
+#: 1206
+msgid "Post/Page Settings"
+msgstr ""
+
+#: ../inc/admin-panel/theme-options.php:393 ../inc/admin-panel/theme-options.php:
+#: 1243
+msgid "Portfolio Settings"
+msgstr ""
+
+#: ../inc/admin-panel/theme-options.php:394 ../inc/admin-panel/theme-options.php:
+#: 1356
+msgid "Events Settings"
+msgstr ""
+
+#: ../inc/admin-panel/theme-options.php:395
+msgid "Faq Settings"
+msgstr ""
+
+#: ../inc/admin-panel/theme-options.php:396 ../inc/admin-panel/theme-options.php:
+#: 1501
+msgid "Breadcrumb Settings"
+msgstr ""
+
+#: ../inc/admin-panel/theme-options.php:397
+msgid "Social Links"
+msgstr ""
+
+#: ../inc/admin-panel/theme-options.php:398 ../inc/admin-panel/theme-options.php:
+#: 1637
+msgid "Tools"
+msgstr ""
+
+#: ../inc/admin-panel/theme-options.php:399
+msgid "Website Launch Countdown"
+msgstr ""
+
+#: ../inc/admin-panel/theme-options.php:400 ../inc/admin-panel/theme-options.php:
+#: 1827
+msgid "About AccessPress Pro"
+msgstr ""
+
+#: ../inc/admin-panel/theme-options.php:401
+msgid "About AccessPress Themes"
+msgstr ""
+
+#: ../inc/admin-panel/theme-options.php:442
+msgid "Install Demo Data"
+msgstr ""
+
+#: ../inc/admin-panel/theme-options.php:443
+msgid "Import Demo"
+msgstr ""
+
+#: ../inc/admin-panel/theme-options.php:444
+msgid ""
+"This button should only be pressed on a <strong>clean WordPress</strong> "
+"installation. This will overwrite all existing option values, please proceed "
+"with caution!"
+msgstr ""
+
+#: ../inc/admin-panel/theme-options.php:449
+msgid "Select the Template color"
+msgstr ""
+
+#: ../inc/admin-panel/theme-options.php:458
+msgid "or"
+msgstr ""
+
+#: ../inc/admin-panel/theme-options.php:460
+msgid "Select your own Template color"
+msgstr ""
+
+#: ../inc/admin-panel/theme-options.php:466
+msgid "Disable Responsive Design?"
+msgstr ""
+
+#: ../inc/admin-panel/theme-options.php:471 ../inc/admin-panel/theme-options.php:
+#: 619 ../inc/admin-panel/theme-options.php:1508 ../inc/admin-panel/theme-options.
+#: php:1537
+msgid "Check to disable"
+msgstr ""
+
+#: ../inc/admin-panel/theme-options.php:477
+msgid "WebSite Layout"
+msgstr ""
+
+#: ../inc/admin-panel/theme-options.php:491
+msgid "Background patterns - Choose the pattern"
+msgstr ""
+
+#: ../inc/admin-panel/theme-options.php:504
+msgid "Upload Custom Background Image | Note: "
+msgstr ""
+
+#: ../inc/admin-panel/theme-options.php:504
+msgid "Set Background patterns to none to enable this feature"
+msgstr ""
+
+#: ../inc/admin-panel/theme-options.php:505 ../inc/admin-panel/theme-options.php:
+#: 512 ../inc/admin-panel/theme-options.php:832 ../inc/admin-panel/theme-options.
+#: php:1767 ../inc/admin-panel/theme-options.php:1774 ../inc/widgets/widget-
+#: fields.php:183 ../inc/widgets/widget-fields.php:756
+msgid "Upload"
+msgstr ""
+
+#: ../inc/admin-panel/theme-options.php:509
+msgid "Upload Favicon"
+msgstr ""
+
+#: ../inc/admin-panel/theme-options.php:513
+msgid "Upload favicon(.png) with size of 16px X 16px"
+msgstr ""
+
+#: ../inc/admin-panel/theme-options.php:523 ../inc/admin-panel/theme-options.php:
+#: 1784
+msgid "remove"
+msgstr ""
+
+#: ../inc/admin-panel/theme-options.php:530
+msgid "Read More button text in Archive pages"
+msgstr ""
+
+#: ../inc/admin-panel/theme-options.php:535
+msgid "No of Character to show in excerpt in Archive pages"
+msgstr ""
+
+#: ../inc/admin-panel/theme-options.php:540
+msgid "Select the category to Exclude from Blog"
+msgstr ""
+
+#: ../inc/admin-panel/theme-options.php:567
+msgid "Home Page Layout"
+msgstr ""
+
+#: ../inc/admin-panel/theme-options.php:583
+msgid "Welcome Post - Homepage Top Left Block"
+msgstr ""
+
+#: ../inc/admin-panel/theme-options.php:587
+msgid "Welcome Post"
+msgstr ""
+
+#: ../inc/admin-panel/theme-options.php:598
+msgid "Show Full Content?"
+msgstr ""
+
+#: ../inc/admin-panel/theme-options.php:600 ../inc/admin-panel/theme-options.php:
+#: 638 ../inc/admin-panel/theme-options.php:662 ../inc/admin-panel/theme-options.
+#: php:671 ../inc/admin-panel/theme-options.php:745 ../inc/admin-panel/theme-
+#: options.php:815 ../inc/admin-panel/theme-options.php:825 ../inc/admin-
+#: panel/theme-options.php:1328 ../inc/admin-panel/theme-options.php:1338 ..
+#: /inc/admin-panel/theme-options.php:1348 ../inc/admin-panel/theme-options.php:
+#: 1362 ../inc/admin-panel/theme-options.php:1441 ../inc/admin-panel/theme-
+#: options.php:1451 ../inc/admin-panel/theme-options.php:1465 ../inc/admin-
+#: panel/theme-options.php:1669 ../inc/admin-panel/theme-options.php:1808
+msgid "Check to enable"
+msgstr ""
+
+#: ../inc/admin-panel/theme-options.php:603
+msgid "Welcome Post Character"
+msgstr ""
+
+#: ../inc/admin-panel/theme-options.php:608 ../inc/admin-panel/theme-options.php:
+#: 722
+msgid "Read More Button Text"
+msgstr ""
+
+#: ../inc/admin-panel/theme-options.php:609 ../inc/admin-panel/theme-options.php:
+#: 723 ../inc/admin-panel/theme-options.php:786
+msgid "Leave blank to remove"
+msgstr ""
+
+#: ../inc/admin-panel/theme-options.php:613
+msgid "Event Section - Homepage Top Right Block"
+msgstr ""
+
+#: ../inc/admin-panel/theme-options.php:617
+msgid "Disable Event Section?"
+msgstr ""
+
+#: ../inc/admin-panel/theme-options.php:622
+msgid "The welcome post will cover the full width if disabled."
+msgstr ""
+
+#: ../inc/admin-panel/theme-options.php:626
+msgid "Event Section Title"
+msgstr ""
+
+#: ../inc/admin-panel/theme-options.php:631
+msgid "No of Event Post to display"
+msgstr ""
+
+#: ../inc/admin-panel/theme-options.php:636 ../inc/widgets/widget-event.php:55
+msgid "Sort by Event date?"
+msgstr ""
+
+#: ../inc/admin-panel/theme-options.php:641
+msgid ""
+"Event list will sort in the order of the Event date and will vanish after "
+"event date completes."
+msgstr ""
+
+#: ../inc/admin-panel/theme-options.php:645
+msgid "Hide Event date?"
+msgstr ""
+
+#: ../inc/admin-panel/theme-options.php:647
+msgid "Check to hide"
+msgstr ""
+
+#: ../inc/admin-panel/theme-options.php:651
+#, php-format
+msgid ""
+"To Replace the Event Section with widget, go to <a href=\"%s\" "
+"target=\"_blank\">widgets</a> page and drag the widget to Event Sidebar."
+msgstr ""
+
+#: ../inc/admin-panel/theme-options.php:655
+msgid "Featured Posts Block"
+msgstr ""
+
+#: ../inc/admin-panel/theme-options.php:659
+msgid "Show Font Awesome icon for Featured Post?"
+msgstr ""
+
+#: ../inc/admin-panel/theme-options.php:664
+msgid ""
+"If enabled the featured image will be replaced by Font Awesome Icon. For "
+"lists of icons click"
+msgstr ""
+
+#: ../inc/admin-panel/theme-options.php:668
+msgid "Show Big Font Awesome icon with center aligned"
+msgstr ""
+
+#: ../inc/admin-panel/theme-options.php:676
+msgid "No of Featured post to show"
+msgstr ""
+
+#: ../inc/admin-panel/theme-options.php:688
+msgid "No of columns per row"
+msgstr ""
+
+#: ../inc/admin-panel/theme-options.php:702
+msgid "Featured Post "
+msgstr ""
+
+#: ../inc/admin-panel/theme-options.php:711
+msgid "Font Awesome icon name"
+msgstr ""
+
+#: ../inc/admin-panel/theme-options.php:711
+msgid "  Example: "
+msgstr ""
+
+#: ../inc/admin-panel/theme-options.php:717
+msgid "Featured Post Character"
+msgstr ""
+
+#: ../inc/admin-panel/theme-options.php:727
+msgid "Featured Widgets Block"
+msgstr ""
+
+#: ../inc/admin-panel/theme-options.php:730
+#, php-format
+msgid ""
+"To add the Featured Widgets, go to <a href=\"%s\" target=\"_blank\">widgets</a> "
+"page and drag the widget to Home Page Text Bar, Featured Bar Column one, "
+"Featured Bar Column two, Featured Bar Column three."
+msgstr ""
+
+#: ../inc/admin-panel/theme-options.php:734
+msgid "Client/Parters Logo"
+msgstr ""
+
+#: ../inc/admin-panel/theme-options.php:738
+msgid "Client/Partner Logo Heading"
+msgstr ""
+
+#: ../inc/admin-panel/theme-options.php:743
+msgid "Show Clients/Parters logo Slider"
+msgstr ""
+
+#: ../inc/admin-panel/theme-options.php:748
+#, php-format
+msgid "To upload Clients/Parters Logo click <a href=\"%s\" target=\"_blank\">here</a>"
+msgstr ""
+
+#: ../inc/admin-panel/theme-options.php:754
+msgid "Call To Action Text"
+msgstr ""
+
+#: ../inc/admin-panel/theme-options.php:756
+msgid "Background color"
+msgstr ""
+
+#: ../inc/admin-panel/theme-options.php:761 ../inc/admin-panel/theme-options.php:
+#: 1756
+msgid "Text color"
+msgstr ""
+
+#: ../inc/admin-panel/theme-options.php:766
+msgid "Font Size"
+msgstr ""
+
+#: ../inc/admin-panel/theme-options.php:771 ../inc/admin-panel/theme-options.php:
+#: 1126 ../inc/admin-panel/theme-options.php:1138 ../inc/admin-panel/theme-
+#: options.php:1150 ../inc/admin-panel/theme-options.php:1162 ../inc/admin-
+#: panel/theme-options.php:1174 ../inc/admin-panel/theme-options.php:1186 ..
+#: /inc/admin-panel/theme-options.php:1198
+msgid "Text"
+msgstr ""
+
+#: ../inc/admin-panel/theme-options.php:776
+msgid "Text Align"
+msgstr ""
+
+#: ../inc/admin-panel/theme-options.php:778
+msgid "Left"
+msgstr ""
+
+#: ../inc/admin-panel/theme-options.php:779
+msgid "Center"
+msgstr ""
+
+#: ../inc/admin-panel/theme-options.php:780
+msgid "Right"
+msgstr ""
+
+#: ../inc/admin-panel/theme-options.php:785 ../inc/admin-panel/theme-options.php:
+#: 926
+msgid "Read More Text"
+msgstr ""
+
+#: ../inc/admin-panel/theme-options.php:790 ../inc/admin-panel/theme-options.php:
+#: 928
+msgid "Read More Link"
+msgstr ""
+
+#: ../inc/admin-panel/theme-options.php:797
+msgid "Header settings"
+msgstr ""
+
+#: ../inc/admin-panel/theme-options.php:799
+msgid "Select header style"
+msgstr ""
+
+#: ../inc/admin-panel/theme-options.php:811
+msgid "Enable Sticky Header?"
+msgstr ""
+
+#: ../inc/admin-panel/theme-options.php:821
+msgid "Show Search in Header?"
+msgstr ""
+
+#: ../inc/admin-panel/theme-options.php:836
+msgid "Logo Padding"
+msgstr ""
+
+#: ../inc/admin-panel/theme-options.php:837 ../inc/admin-panel/theme-options.php:
+#: 845
+msgid "Padding Top"
+msgstr ""
+
+#: ../inc/admin-panel/theme-options.php:838
+msgid "Padding Bottom"
+msgstr ""
+
+#: ../inc/admin-panel/theme-options.php:839
+msgid "Padding Left"
+msgstr ""
+
+#: ../inc/admin-panel/theme-options.php:840
+msgid "Padding Right"
+msgstr ""
+
+#: ../inc/admin-panel/theme-options.php:844
+msgid "Navigation Padding"
+msgstr ""
+
+#: ../inc/admin-panel/theme-options.php:849
+msgid "Header Text (Email Id / Phone number / any other text)"
+msgstr ""
+
+#: ../inc/admin-panel/theme-options.php:854
+msgid "Google Map Iframe"
+msgstr ""
+
+#: ../inc/admin-panel/theme-options.php:857
+msgid ""
+"Enter the Iframe of the google map. The icon will appear in the header - "
+"left side of header text and when clicked opens the google map."
+msgstr ""
+
+#: ../inc/admin-panel/theme-options.php:858
+msgid "It does not shows for header style 1. Leave Blank if you don't want to show"
+msgstr ""
+
+#: ../inc/admin-panel/theme-options.php:865
+msgid "Footer settings"
+msgstr ""
+
+#: ../inc/admin-panel/theme-options.php:868
+#, php-format
+msgid ""
+"To add the Footer Widgets, go to <a href=\"%s\" target=\"_blank\">widgets</a> "
+"page and drag the widget to Footer Area Column One, Footer Area Column Two, "
+"Footer Area Column Three, Footer Area Column Four ."
+msgstr ""
+
+#: ../inc/admin-panel/theme-options.php:873
+msgid "Footer Copyright Text"
+msgstr ""
+
+#: ../inc/admin-panel/theme-options.php:878
+msgid "Right Footer Text"
+msgstr ""
+
+#: ../inc/admin-panel/theme-options.php:885
+msgid "Upload Slider Image"
+msgstr ""
+
+#: ../inc/admin-panel/theme-options.php:887
+msgid "Add Slider Images"
+msgstr ""
+
+#: ../inc/admin-panel/theme-options.php:901
+msgid "Silder Image"
+msgstr ""
+
+#: ../inc/admin-panel/theme-options.php:922
+msgid "Caption Header"
+msgstr ""
+
+#: ../inc/admin-panel/theme-options.php:924
+msgid "Caption Description"
+msgstr ""
+
+#: ../inc/admin-panel/theme-options.php:930
+msgid "Upload Background Image"
+msgstr ""
+
+#: ../inc/admin-panel/theme-options.php:931
+msgid "Upload Foreground Image"
+msgstr ""
+
+#: ../inc/admin-panel/theme-options.php:940
+msgid "Add New Slider"
+msgstr ""
+
+#: ../inc/admin-panel/theme-options.php:948
+msgid "Show Slider"
+msgstr ""
+
+#: ../inc/admin-panel/theme-options.php:961
+msgid "Select Slider Type"
+msgstr ""
+
+#: ../inc/admin-panel/theme-options.php:973
+msgid "Revolution Slider Shortcode"
+msgstr ""
+
+#: ../inc/admin-panel/theme-options.php:978
+msgid "Choose the Slider Mode - Applies to AccessPress Pro Slider only"
+msgstr ""
+
+#: ../inc/admin-panel/theme-options.php:992
+msgid "AccessPress Pro Slider Height - Applies to AccessPress Pro Slider only"
+msgstr ""
+
+#: ../inc/admin-panel/theme-options.php:997
+msgid "Show Slider Controls (Arrows)"
+msgstr ""
+
+#: ../inc/admin-panel/theme-options.php:1009
+msgid "Show Slider Pager (Navigation dots/images)"
+msgstr ""
+
+#: ../inc/admin-panel/theme-options.php:1021
+msgid "Slider auto Transition"
+msgstr ""
+
+#: ../inc/admin-panel/theme-options.php:1033
+msgid "Slider Speed"
+msgstr ""
+
+#: ../inc/admin-panel/theme-options.php:1038
+msgid "Show Slider Captions"
+msgstr ""
+
+#: ../inc/admin-panel/theme-options.php:1050
+msgid ""
+"Show Image in Pager (Set Slider Pager Option to Yes) - Applies to "
+"AccessPress Pro Slider only"
+msgstr ""
+
+#: ../inc/admin-panel/theme-options.php:1054
+msgid "yes"
+msgstr ""
+
+#: ../inc/admin-panel/theme-options.php:1061
+msgid "no"
+msgstr ""
+
+#: ../inc/admin-panel/theme-options.php:1069
+msgid "Typography settings"
+msgstr ""
+
+#: ../inc/admin-panel/theme-options.php:1071
+msgid "Choose a font for the headline H1, H2, H3, H4, H5, H6 text"
+msgstr ""
+
+#: ../inc/admin-panel/theme-options.php:1097
+msgid "Choose a font for the Body text"
+msgstr ""
+
+#: ../inc/admin-panel/theme-options.php:1122
+msgid "Heading Tags Formating"
+msgstr ""
+
+#: ../inc/admin-panel/theme-options.php:1129 ../inc/admin-panel/theme-options.php:
+#: 1141 ../inc/admin-panel/theme-options.php:1153 ../inc/admin-panel/theme-
+#: options.php:1165 ../inc/admin-panel/theme-options.php:1177 ../inc/admin-
+#: panel/theme-options.php:1189
+msgid "Normal"
+msgstr ""
+
+#: ../inc/admin-panel/theme-options.php:1130 ../inc/admin-panel/theme-options.php:
+#: 1142 ../inc/admin-panel/theme-options.php:1154 ../inc/admin-panel/theme-
+#: options.php:1166 ../inc/admin-panel/theme-options.php:1178 ../inc/admin-
+#: panel/theme-options.php:1190
+msgid "Uppercase"
+msgstr ""
+
+#: ../inc/admin-panel/theme-options.php:1131 ../inc/admin-panel/theme-options.php:
+#: 1143 ../inc/admin-panel/theme-options.php:1155 ../inc/admin-panel/theme-
+#: options.php:1167 ../inc/admin-panel/theme-options.php:1179 ../inc/admin-
+#: panel/theme-options.php:1191
+msgid "Lowercase"
+msgstr ""
+
+#: ../inc/admin-panel/theme-options.php:1132 ../inc/admin-panel/theme-options.php:
+#: 1144 ../inc/admin-panel/theme-options.php:1156 ../inc/admin-panel/theme-
+#: options.php:1168 ../inc/admin-panel/theme-options.php:1180 ../inc/admin-
+#: panel/theme-options.php:1192
+msgid "Capitalize"
+msgstr ""
+
+#: ../inc/admin-panel/theme-options.php:1207
+msgid "Page Setting"
+msgstr ""
+
+#: ../inc/admin-panel/theme-options.php:1209
+msgid "Enable Comments in Pages?"
+msgstr ""
+
+#: ../inc/admin-panel/theme-options.php:1214 ../inc/admin-panel/theme-options.php:
+#: 1226 ../inc/admin-panel/theme-options.php:1236
+msgid "Check to Enable"
+msgstr ""
+
+#: ../inc/admin-panel/theme-options.php:1218
+msgid "Post Setting"
+msgstr ""
+
+#: ../inc/admin-panel/theme-options.php:1221
+msgid "Show Posted date in Posts?"
+msgstr ""
+
+#: ../inc/admin-panel/theme-options.php:1231
+msgid "Enable Previous/Next Pagination in Posts?"
+msgstr ""
+
+#: ../inc/admin-panel/theme-options.php:1245
+msgid "Full Width Portfolio"
+msgstr ""
+
+#: ../inc/admin-panel/theme-options.php:1249
+msgid "Check to enable "
+msgstr ""
+
+#: ../inc/admin-panel/theme-options.php:1255 ../inc/admin-panel/theme-options.php:
+#: 1368
+msgid "Select the Sidebar to display"
+msgstr ""
+
+#: ../inc/admin-panel/theme-options.php:1266
+msgid "Portfolio Archive Page Layout"
+msgstr ""
+
+#: ../inc/admin-panel/theme-options.php:1270 ../inc/admin-panel/theme-options.php:
+#: 1383
+msgid "Grid"
+msgstr ""
+
+#: ../inc/admin-panel/theme-options.php:1277 ../inc/admin-panel/theme-options.php:
+#: 1390
+msgid "List"
+msgstr ""
+
+#: ../inc/admin-panel/theme-options.php:1283 ../inc/admin-panel/theme-options.php:
+#: 1396
+msgid "No of columns in Grid Layout"
+msgstr ""
+
+#: ../inc/admin-panel/theme-options.php:1293 ../inc/admin-panel/theme-options.php:
+#: 1406
+msgid "No of character to display in exercpt"
+msgstr ""
+
+#: ../inc/admin-panel/theme-options.php:1298
+msgid "Portfolio Single Page Options"
+msgstr ""
+
+#: ../inc/admin-panel/theme-options.php:1302 ../inc/admin-panel/theme-options.php:
+#: 1415
+msgid "Select the Left Sidebar to display"
+msgstr ""
+
+#: ../inc/admin-panel/theme-options.php:1313 ../inc/admin-panel/theme-options.php:
+#: 1426 ../inc/admin-panel/theme-options.php:1488
+msgid "Select the Right Sidebar to display"
+msgstr ""
+
+#: ../inc/admin-panel/theme-options.php:1324 ../inc/admin-panel/theme-options.php:
+#: 1437
+msgid "Show Social sharing button"
+msgstr ""
+
+#: ../inc/admin-panel/theme-options.php:1334
+msgid "Enable Previous/Next Pagination"
+msgstr ""
+
+#: ../inc/admin-panel/theme-options.php:1344 ../inc/admin-panel/theme-options.php:
+#: 1447 ../inc/widgets/widget-preview-post.php:49
+msgid "Show featured image"
+msgstr ""
+
+#: ../inc/admin-panel/theme-options.php:1358
+msgid "Full Width Event"
+msgstr ""
+
+#: ../inc/admin-panel/theme-options.php:1379
+msgid "Event Archive Page Layout"
+msgstr ""
+
+#: ../inc/admin-panel/theme-options.php:1411
+msgid "Event Single Page Options"
+msgstr ""
+
+#: ../inc/admin-panel/theme-options.php:1459
+msgid "Faqs Settings"
+msgstr ""
+
+#: ../inc/admin-panel/theme-options.php:1461
+msgid "Full Width Faq"
+msgstr ""
+
+#: ../inc/admin-panel/theme-options.php:1471
+msgid "Show Answer"
+msgstr ""
+
+#: ../inc/admin-panel/theme-options.php:1475
+msgid "Always Show"
+msgstr ""
+
+#: ../inc/admin-panel/theme-options.php:1482
+msgid "Onclick to Question"
+msgstr ""
+
+#: ../inc/admin-panel/theme-options.php:1503
+msgid "Display Breadcrumbs"
+msgstr ""
+
+#: ../inc/admin-panel/theme-options.php:1513
+msgid "Breadcrumb seperator"
+msgstr ""
+
+#: ../inc/admin-panel/theme-options.php:1515
+msgid "example:"
+msgstr ""
+
+#: ../inc/admin-panel/theme-options.php:1519
+msgid "Home Text"
+msgstr ""
+
+#: ../inc/admin-panel/theme-options.php:1527
+msgid "Social links - Put your social url"
+msgstr ""
+
+#: ../inc/admin-panel/theme-options.php:1529
+msgid "Put your social url below.. Leave blank if you don't want to show it."
+msgstr ""
+
+#: ../inc/admin-panel/theme-options.php:1533
+msgid "Disable Social icons in header?"
+msgstr ""
+
+#: ../inc/admin-panel/theme-options.php:1543 ../inc/widgets/widget-social-icons.
+#: php:45
+msgid "Facebook"
+msgstr ""
+
+#: ../inc/admin-panel/theme-options.php:1549 ../inc/widgets/widget-social-icons.
+#: php:40
+msgid "Twitter"
+msgstr ""
+
+#: ../inc/admin-panel/theme-options.php:1555
+msgid "Google plus"
+msgstr ""
+
+#: ../inc/admin-panel/theme-options.php:1561 ../inc/widgets/widget-social-icons.
+#: php:65
+msgid "YouTube"
+msgstr ""
+
+#: ../inc/admin-panel/theme-options.php:1567 ../inc/widgets/widget-social-icons.
+#: php:60
+msgid "Pinterest"
+msgstr ""
+
+#: ../inc/admin-panel/theme-options.php:1573 ../inc/widgets/widget-social-icons.
+#: php:75
+msgid "Flickr"
+msgstr ""
+
+#: ../inc/admin-panel/theme-options.php:1579 ../inc/widgets/widget-social-icons.
+#: php:70
+msgid "Vimeo"
+msgstr ""
+
+#: ../inc/admin-panel/theme-options.php:1585 ../inc/widgets/widget-social-icons.
+#: php:85
+msgid "Stumbleupon"
+msgstr ""
+
+#: ../inc/admin-panel/theme-options.php:1591
+msgid "Dribble"
+msgstr ""
+
+#: ../inc/admin-panel/theme-options.php:1597 ../inc/widgets/widget-social-icons.
+#: php:90
+msgid "Tumblr"
+msgstr ""
+
+#: ../inc/admin-panel/theme-options.php:1603
+msgid "Linkedin"
+msgstr ""
+
+#: ../inc/admin-panel/theme-options.php:1609 ../inc/widgets/widget-social-icons.
+#: php:95
+msgid "Instagram"
+msgstr ""
+
+#: ../inc/admin-panel/theme-options.php:1615
+msgid "Sound Cloud"
+msgstr ""
+
+#: ../inc/admin-panel/theme-options.php:1621 ../inc/widgets/widget-social-icons.
+#: php:100
+msgid "Skype"
+msgstr ""
+
+#: ../inc/admin-panel/theme-options.php:1627
+msgid "RSS"
+msgstr ""
+
+#: ../inc/admin-panel/theme-options.php:1639
+msgid "Custom CSS"
+msgstr ""
+
+#: ../inc/admin-panel/theme-options.php:1641
+msgid "Enter the custom css here"
+msgstr ""
+
+#: ../inc/admin-panel/theme-options.php:1645
+msgid "Analytics Code"
+msgstr ""
+
+#: ../inc/admin-panel/theme-options.php:1647
+msgid "Enter the code from Facebook, Google or any other media here."
+msgstr ""
+
+#: ../inc/admin-panel/theme-options.php:1650
+msgid "AddThis Publisher ID"
+msgstr ""
+
+#: ../inc/admin-panel/theme-options.php:1653
+#, php-format
+msgid ""
+"Go to <a href=\"%s\" target=\"_blank\">Addthis</a> website, register and enter "
+"the publisher id to keep the track fo your website."
+msgstr ""
+
+#: ../inc/admin-panel/theme-options.php:1659
+msgid "Website Launch CountDown"
+msgstr ""
+
+#: ../inc/admin-panel/theme-options.php:1661
+msgid ""
+"Logged In user will not see the Countdown Screen. Open the website in "
+"another browser or log out to see the Countdown Screen."
+msgstr ""
+
+#: ../inc/admin-panel/theme-options.php:1665
+msgid "Activate CountDown Page"
+msgstr ""
+
+#: ../inc/admin-panel/theme-options.php:1675
+msgid "Website Launch Date"
+msgstr ""
+
+#: ../inc/admin-panel/theme-options.php:1677
+msgid "Year"
+msgstr ""
+
+#: ../inc/admin-panel/theme-options.php:1683
+msgid "Month"
+msgstr ""
+
+#: ../inc/admin-panel/theme-options.php:1689
+msgid "Day"
+msgstr ""
+
+#: ../inc/admin-panel/theme-options.php:1695
+msgid "Hours"
+msgstr ""
+
+#: ../inc/admin-panel/theme-options.php:1703
+msgid "Animation"
+msgstr ""
+
+#: ../inc/admin-panel/theme-options.php:1705
+msgid "ticks"
+msgstr ""
+
+#: ../inc/admin-panel/theme-options.php:1706
+msgid "smooth"
+msgstr ""
+
+#: ../inc/admin-panel/theme-options.php:1711
+msgid "Circle Color"
+msgstr ""
+
+#: ../inc/admin-panel/theme-options.php:1716
+msgid "Day Text"
+msgstr ""
+
+#: ../inc/admin-panel/theme-options.php:1721
+msgid "Hours Text"
+msgstr ""
+
+#: ../inc/admin-panel/theme-options.php:1726
+msgid "Minutes Text"
+msgstr ""
+
+#: ../inc/admin-panel/theme-options.php:1731
+msgid "Seconds Text"
+msgstr ""
+
+#: ../inc/admin-panel/theme-options.php:1736
+msgid "Day Circle color"
+msgstr ""
+
+#: ../inc/admin-panel/theme-options.php:1741
+msgid "Hours Circle color"
+msgstr ""
+
+#: ../inc/admin-panel/theme-options.php:1746
+msgid "Minutes Circle color"
+msgstr ""
+
+#: ../inc/admin-panel/theme-options.php:1751
+msgid "Seconds Circle color"
+msgstr ""
+
+#: ../inc/admin-panel/theme-options.php:1761
+msgid "Page Background color"
+msgstr ""
+
+#: ../inc/admin-panel/theme-options.php:1771
+msgid "Page Background Image"
+msgstr ""
+
+#: ../inc/admin-panel/theme-options.php:1791
+msgid "Background Repeat"
+msgstr ""
+
+#: ../inc/admin-panel/theme-options.php:1793
+msgid "Repeat"
+msgstr ""
+
+#: ../inc/admin-panel/theme-options.php:1794
+msgid "No Repeat"
+msgstr ""
+
+#: ../inc/admin-panel/theme-options.php:1799
+msgid "Header Text"
+msgstr ""
+
+#: ../inc/admin-panel/theme-options.php:1804
+msgid "Show Social Icon"
+msgstr ""
+
+#: ../inc/admin-panel/theme-options.php:1812
+msgid "CLick on Social Links tab to enter your social URL."
+msgstr ""
+
+#: ../inc/admin-panel/theme-options.php:1816
+msgid "Social Text"
+msgstr ""
+
+#: ../inc/admin-panel/theme-options.php:1823
+msgid "AccessPress Pro"
+msgstr ""
+
+#: ../inc/admin-panel/theme-options.php:1830
+msgid "View Documentaion"
+msgstr ""
+
+#: ../inc/admin-panel/theme-options.php:1831
+msgid "View Demo"
+msgstr ""
+
+#: ../inc/admin-panel/theme-options.php:1835
+msgid "For Support"
+msgstr ""
+
+#: ../inc/admin-panel/theme-options.php:1838 ../inc/admin-panel/theme-options.php:
+#: 1848
+msgid "Email:"
+msgstr ""
+
+#: ../inc/admin-panel/theme-options.php:1839
+msgid "Forum:"
+msgstr ""
+
+#: ../inc/admin-panel/theme-options.php:1840
+msgid "Online Chat:"
+msgstr ""
+
+#: ../inc/admin-panel/theme-options.php:1840
+msgid "Visit Website to chat"
+msgstr ""
+
+#: ../inc/admin-panel/theme-options.php:1844
+msgid "For Customization"
+msgstr ""
+
+#: ../inc/admin-panel/theme-options.php:1846
+msgid ""
+"We offer WordPress Themes/Plugins development, customization, design "
+"integration, WordPress setup, fixes etc."
+msgstr ""
+
+#: ../inc/admin-panel/theme-options.php:1847
+msgid "Rate: $25/hr"
+msgstr ""
+
+#: ../inc/admin-panel/theme-options.php:1851
+msgid "Get social"
+msgstr ""
+
+#: ../inc/admin-panel/theme-options.php:1853 ../inc/admin-panel/theme-options.php:
+#: 1900
+msgid "Get connected with us on Social Media."
+msgstr ""
+
+#: ../inc/admin-panel/theme-options.php:1862
+msgid "AccessPress Themes"
+msgstr ""
+
+#: ../inc/admin-panel/theme-options.php:1863
+msgid ""
+"AccessPress Themes is an online WordPress themes store, that provides "
+"beautiful and useful themes. All of our themes are crafted with our years of "
+"experience. Our theme don’t lack the basics and don’t have a lot of non-"
+"sense features which you might never use. AccessPress Themes has beautiful "
+"and elegant, fully responsive, multipurpose themes to meet your need for "
+"free and premium basis. Our themes have bunch of easily customizable options "
+"and features, someone with no programming knowledge can use our easy theme "
+"options panel and configure/setup the theme as needed."
+msgstr ""
+
+#: ../inc/admin-panel/theme-options.php:1865
+msgid "More From AccessPress Themes"
+msgstr ""
+
+#: ../inc/admin-panel/theme-options.php:1871
+msgid "View all Themes"
+msgstr ""
+
+#: ../inc/admin-panel/theme-options.php:1873
+msgid "WordPress Themes"
+msgstr ""
+
+#: ../inc/admin-panel/theme-options.php:1881
+msgid "View all Plugins"
+msgstr ""
+
+#: ../inc/admin-panel/theme-options.php:1883
+msgid "WordPress Plugins"
+msgstr ""
+
+#: ../inc/admin-panel/theme-options.php:1891
+msgid "Request Customization"
+msgstr ""
+
+#: ../inc/admin-panel/theme-options.php:1893
+msgid "WordPress Customization"
+msgstr ""
+
+#: ../inc/admin-panel/theme-options.php:1898
+msgid "Get Social"
+msgstr ""
+
+#: ../inc/admin-panel/theme-options.php:1908
+msgid "Save Options"
+msgstr ""
+
+#: ../inc/import/parsers.php:42 ../inc/import/parsers.php:72 ..
+#: /inc/import/parsers.php:80
+msgid "There was an error when reading this WXR file"
+msgstr ""
+
+#: ../inc/import/parsers.php:43
+msgid ""
+"Details are shown above. The importer will now try again with a different "
+"parser..."
+msgstr ""
+
+#: ../inc/import/parsers.php:84 ../inc/import/parsers.php:89 ..
+#: /inc/import/parsers.php:279 ../inc/import/parsers.php:468
+msgid "This does not appear to be a WXR file, missing/invalid WXR version number"
+msgstr ""
+
+#: ../inc/import/wordpress-importer.php:134 ../inc/import/wordpress-importer.php:
+#: 143 ../inc/import/wordpress-importer.php:194 ../inc/import/wordpress-importer.
+#: php:198 ../inc/import/wordpress-importer.php:207
+msgid "Sorry, there has been an error."
+msgstr ""
+
+#: ../inc/import/wordpress-importer.php:135
+msgid "The file does not exist, please try again."
+msgstr ""
+
+#: ../inc/import/wordpress-importer.php:178
+msgid "All done."
+msgstr ""
+
+#: ../inc/import/wordpress-importer.php:178
+msgid "Have fun!"
+msgstr ""
+
+#: ../inc/import/wordpress-importer.php:179
+msgid "Remember to update the passwords and roles of imported users."
+msgstr ""
+
+#: ../inc/import/wordpress-importer.php:199
+#, php-format
+msgid ""
+"The export file could not be found at <code>%s</code>. It is likely that "
+"this was caused by a permissions problem."
+msgstr ""
+
+#: ../inc/import/wordpress-importer.php:215
+#, php-format
+msgid ""
+"This WXR file (version %s) may not be supported by this version of the "
+"importer. Please consider updating."
+msgstr ""
+
+#: ../inc/import/wordpress-importer.php:240
+#, php-format
+msgid ""
+"Failed to import author %s. Their posts will be attributed to the current "
+"user."
+msgstr ""
+
+#: ../inc/import/wordpress-importer.php:266
+msgid "Assign Authors"
+msgstr ""
+
+#: ../inc/import/wordpress-importer.php:267
+msgid ""
+"To make it easier for you to edit and save the imported content, you may "
+"want to reassign the author of the imported item to an existing user of this "
+"site. For example, you may want to import all the entries as "
+"<code>admin</code>s entries."
+msgstr ""
+
+#: ../inc/import/wordpress-importer.php:269
+#, php-format
+msgid ""
+"If a new user is created by WordPress, a new password will be randomly "
+"generated and the new user&#8217;s role will be set as %s. Manually changing "
+"the new user&#8217;s details will be necessary."
+msgstr ""
+
+#: ../inc/import/wordpress-importer.php:279
+msgid "Import Attachments"
+msgstr ""
+
+#: ../inc/import/wordpress-importer.php:282
+msgid "Download and import file attachments"
+msgstr ""
+
+#: ../inc/import/wordpress-importer.php:286
+msgid "Submit"
+msgstr ""
+
+#: ../inc/import/wordpress-importer.php:299
+msgid "Import author:"
+msgstr ""
+
+#: ../inc/import/wordpress-importer.php:310
+msgid "or create new user with login name:"
+msgstr ""
+
+#: ../inc/import/wordpress-importer.php:313
+msgid "as a new user:"
+msgstr ""
+
+#: ../inc/import/wordpress-importer.php:321
+msgid "assign posts to an existing user:"
+msgstr ""
+
+#: ../inc/import/wordpress-importer.php:323
+msgid "or assign posts to an existing user:"
+msgstr ""
+
+#: ../inc/import/wordpress-importer.php:324
+msgid "- Select -"
+msgstr ""
+
+#: ../inc/import/wordpress-importer.php:374
+#, php-format
+msgid ""
+"Failed to create new user for %s. Their posts will be attributed to the "
+"current user."
+msgstr ""
+
+#: ../inc/import/wordpress-importer.php:425
+#, php-format
+msgid "Failed to import category %s"
+msgstr ""
+
+#: ../inc/import/wordpress-importer.php:465
+#, php-format
+msgid "Failed to import post tag %s"
+msgstr ""
+
+#: ../inc/import/wordpress-importer.php:511 ../inc/import/wordpress-importer.php:
+#: 652
+#, php-format
+msgid "Failed to import %s %s"
+msgstr ""
+
+#: ../inc/import/wordpress-importer.php:537
+#, php-format
+msgid "Failed to import &#8220;%s&#8221;: Invalid post type %s"
+msgstr ""
+
+#: ../inc/import/wordpress-importer.php:559
+#, php-format
+msgid "%s &#8220;%s&#8221; already exists."
+msgstr ""
+
+#: ../inc/import/wordpress-importer.php:618
+#, php-format
+msgid "Failed to import %s &#8220;%s&#8221;"
+msgstr ""
+
+#: ../inc/import/wordpress-importer.php:783
+msgid "Menu item skipped due to missing menu slug"
+msgstr ""
+
+#: ../inc/import/wordpress-importer.php:790
+#, php-format
+msgid "Menu item skipped due to invalid menu slug: %s"
+msgstr ""
+
+#: ../inc/import/wordpress-importer.php:853
+msgid "Fetching attachments is not enabled"
+msgstr ""
+
+#: ../inc/import/wordpress-importer.php:866
+msgid "Invalid file type"
+msgstr ""
+
+#: ../inc/import/wordpress-importer.php:910
+msgid "Remote server did not respond"
+msgstr ""
+
+#: ../inc/import/wordpress-importer.php:916
+#, php-format
+msgid "Remote server returned error response %1$d %2$s"
+msgstr ""
+
+#: ../inc/import/wordpress-importer.php:923
+msgid "Remote file is incorrect size"
+msgstr ""
+
+#: ../inc/import/wordpress-importer.php:928
+msgid "Zero size file downloaded"
+msgstr ""
+
+#: ../inc/import/wordpress-importer.php:934
+#, php-format
+msgid "Remote file is too large, limit is %s"
+msgstr ""
+
+#: ../inc/import/wordpress-importer.php:1033
+msgid "Import WordPress"
+msgstr ""
+
+#: ../inc/import/wordpress-importer.php:1040
+#, php-format
+msgid ""
+"A new version of this importer is available. Please update to version %s to "
+"ensure compatibility with newer export files."
+msgstr ""
+
+#: ../inc/import/wordpress-importer.php:1055
+msgid ""
+"Howdy! Upload your WordPress eXtended RSS (WXR) file and we&#8217;ll import "
+"the posts, pages, comments, custom fields, categories, and tags into this "
+"site."
+msgstr ""
+
+#: ../inc/import/wordpress-importer.php:1056
+msgid "Choose a WXR (.xml) file to upload, then click Upload file and import."
+msgstr ""
+
+#: ../inc/import/wordpress-importer.php:1130
+msgid ""
+"Import <strong>posts, pages, comments, custom fields, categories, and "
+"tags</strong> from a WordPress export file."
+msgstr ""
+
+#: ../inc/widgets/widget-contact-info.php:24
+msgid "A widget that shows Contact Info"
+msgstr ""
+
+#: ../inc/widgets/widget-contact-info.php:37 ../inc/widgets/widget-event.php:37 ..
+#: /inc/widgets/widget-facebook.php:40 ../inc/widgets/widget-features.php:37 ..
+#: /inc/widgets/widget-flickr-stream.php:34 ../inc/widgets/widget-image.php:37 ..
+#: /inc/widgets/widget-media-embed.php:34 ../inc/widgets/widget-social-icons.php:
+#: 34 ../inc/widgets/widget-testimonial-slider.php:37
+msgid "Title"
+msgstr ""
+
+#: ../inc/widgets/widget-contact-info.php:42
+msgid "Phone"
+msgstr ""
+
+#: ../inc/widgets/widget-contact-info.php:47
+msgid "Email"
+msgstr ""
+
+#: ../inc/widgets/widget-contact-info.php:52
+msgid "Website"
+msgstr ""
+
+#: ../inc/widgets/widget-contact-info.php:57
+msgid "Contact Address"
+msgstr ""
+
+#: ../inc/widgets/widget-contact-info.php:63
+msgid "Contact Time"
+msgstr ""
+
+#: ../inc/widgets/widget-event.php:24
+msgid "A widget that shows Event Listing"
+msgstr ""
+
+#: ../inc/widgets/widget-event.php:42 ../inc/widgets/widget-testimonial-slider.
+#: php:42
+msgid "No of Post"
+msgstr ""
+
+#: ../inc/widgets/widget-event.php:57
+msgid ""
+"Event will sort in the order of the Event date and will vanish after event "
+"date completes. <br /> Defaut: Published Date"
+msgstr ""
+
+#: ../inc/widgets/widget-facebook.php:24
+msgid "A widget that shows Facebook Like Box"
+msgstr ""
+
+#: ../inc/widgets/widget-facebook.php:45
+msgid "Facebook Page URL"
+msgstr ""
+
+#: ../inc/widgets/widget-facebook.php:50
+msgid "Width"
+msgstr ""
+
+#: ../inc/widgets/widget-facebook.php:55
+msgid "Height"
+msgstr ""
+
+#: ../inc/widgets/widget-facebook.php:60
+msgid "Use Small Header"
+msgstr ""
+
+#: ../inc/widgets/widget-facebook.php:65
+msgid "Show Friend Faces"
+msgstr ""
+
+#: ../inc/widgets/widget-facebook.php:70
+msgid "Tabs to render"
+msgstr ""
+
+#: ../inc/widgets/widget-facebook.php:75
+msgid "Timeline"
+msgstr ""
+
+#: ../inc/widgets/widget-facebook.php:80
+msgid "Message"
+msgstr ""
+
+#: ../inc/widgets/widget-features.php:24
+msgid "A widget that shows features with Image"
+msgstr ""
+
+#: ../inc/widgets/widget-features.php:42
+msgid "List Style"
+msgstr ""
+
+#: ../inc/widgets/widget-features.php:55
+msgid "Features"
+msgstr ""
+
+#: ../inc/widgets/widget-features.php:62 ../inc/widgets/widget-image.php:64
+msgid "Upload Image"
+msgstr ""
+
+#: ../inc/widgets/widget-fields.php:180
+msgid "No file chosen"
+msgstr ""
+
+#: ../inc/widgets/widget-fields.php:188
+msgid "Upgrade your version of WordPress for full media support."
+msgstr ""
+
+#: ../inc/widgets/widget-fields.php:210
+msgid "View File"
+msgstr ""
+
+#: ../inc/widgets/widget-flickr-stream.php:20
+msgid "Displays your Flickr photos."
+msgstr ""
+
+#: ../inc/widgets/widget-flickr-stream.php:40
+msgid "Flickr ID"
+msgstr ""
+
+#: ../inc/widgets/widget-flickr-stream.php:45
+msgid "Number of Photos"
+msgstr ""
+
+#: ../inc/widgets/widget-flickr-stream.php:56
+msgid "Type (user or group)"
+msgstr ""
+
+#: ../inc/widgets/widget-flickr-stream.php:65
+msgid "Display"
+msgstr ""
+
+#: ../inc/widgets/widget-image.php:24
+msgid "A widget that upload image"
+msgstr ""
+
+#: ../inc/widgets/widget-image.php:42
+msgid "Image Size"
+msgstr ""
+
+#: ../inc/widgets/widget-image.php:53
+msgid "Image Align"
+msgstr ""
+
+#: ../inc/widgets/widget-media-embed.php:20
+msgid ""
+"Display media (video/slideshow) widget, support many sites including YouTube,"
+" Vimeo, Flickr, etc."
+msgstr ""
+
+#: ../inc/widgets/widget-media-embed.php:40
+msgid "Embed URL"
+msgstr ""
+
+#: ../inc/widgets/widget-media-embed.php:45
+msgid "Embed width in pixels"
+msgstr ""
+
+#: ../inc/widgets/widget-media-embed.php:50
+msgid "Description"
+msgstr ""
+
+#: ../inc/widgets/widget-preview-post.php:24
+msgid "A widget that shows post/page preview"
+msgstr ""
+
+#: ../inc/widgets/widget-preview-post.php:39
+msgid "Post"
+msgstr ""
+
+#: ../inc/widgets/widget-preview-post.php:44
+msgid "Show post title"
+msgstr ""
+
+#: ../inc/widgets/widget-preview-post.php:54
+msgid "Show excerpt"
+msgstr ""
+
+#: ../inc/widgets/widget-preview-post.php:59
+msgid "Read more link text"
+msgstr ""
+
+#: ../inc/widgets/widget-preview-post.php:60
+msgid "Leave empty for no link"
+msgstr ""
+
+#: ../inc/widgets/widget-pricing.php:24
+msgid "A widget that shows Pricing Table"
+msgstr ""
+
+#: ../inc/widgets/widget-pricing.php:39
+msgid "Plan Name"
+msgstr ""
+
+#: ../inc/widgets/widget-pricing.php:44
+msgid "Sub Text"
+msgstr ""
+
+#: ../inc/widgets/widget-pricing.php:49
+msgid "Price"
+msgstr ""
+
+#: ../inc/widgets/widget-pricing.php:54
+msgid "Price Per"
+msgstr ""
+
+#: ../inc/widgets/widget-pricing.php:59
+msgid "Feature 1"
+msgstr ""
+
+#: ../inc/widgets/widget-pricing.php:64
+msgid "Feature 2"
+msgstr ""
+
+#: ../inc/widgets/widget-pricing.php:69
+msgid "Feature 3"
+msgstr ""
+
+#: ../inc/widgets/widget-pricing.php:74
+msgid "Feature 4"
+msgstr ""
+
+#: ../inc/widgets/widget-pricing.php:79
+msgid "Feature 5"
+msgstr ""
+
+#: ../inc/widgets/widget-pricing.php:84
+msgid "Feature 6"
+msgstr ""
+
+#: ../inc/widgets/widget-pricing.php:89
+msgid "Feature7"
+msgstr ""
+
+#: ../inc/widgets/widget-pricing.php:94
+msgid "Feature 8"
+msgstr ""
+
+#: ../inc/widgets/widget-pricing.php:99
+msgid "Button Text"
+msgstr ""
+
+#: ../inc/widgets/widget-pricing.php:100
+msgid "Leave Empty not to show"
+msgstr ""
+
+#: ../inc/widgets/widget-pricing.php:105
+msgid "Button Link"
+msgstr ""
+
+#: ../inc/widgets/widget-progress-bar.php:24
+msgid "A widget that shows Progress bar"
+msgstr ""
+
+#: ../inc/widgets/widget-progress-bar.php:39
+msgid "Progress Bar Percentage"
+msgstr ""
+
+#: ../inc/widgets/widget-progress-bar.php:44
+msgid "Progress Bar Title"
+msgstr ""
+
+#: ../inc/widgets/widget-slider.php:24
+msgid "A widget that shows Slider"
+msgstr ""
+
+#: ../inc/widgets/widget-slider.php:39
+msgid "Slider Image 1"
+msgstr ""
+
+#: ../inc/widgets/widget-slider.php:44
+msgid "Caption Title"
+msgstr ""
+
+#: ../inc/widgets/widget-slider.php:49
+msgid "Caption Content"
+msgstr ""
+
+#: ../inc/widgets/widget-social-icons.php:20
+msgid "Display links to your social network profiles, enter full profile URLs"
+msgstr ""
+
+#: ../inc/widgets/widget-social-icons.php:50
+msgid "LinkedIn"
+msgstr ""
+
+#: ../inc/widgets/widget-social-icons.php:55
+msgid "Google+"
+msgstr ""
+
+#: ../inc/widgets/widget-social-icons.php:80
+msgid "Dribbble"
+msgstr ""
+
+#: ../inc/widgets/widget-social-icons.php:105
+msgid "SoundCloud"
+msgstr ""
+
+#: ../inc/widgets/widget-team.php:24
+msgid "A widget that shows Team Member"
+msgstr ""
+
+#: ../inc/widgets/widget-team.php:39
+msgid "Team Member Image"
+msgstr ""
+
+#: ../inc/widgets/widget-team.php:44
+msgid "Team Member Name"
+msgstr ""
+
+#: ../inc/widgets/widget-team.php:49
+msgid "Team Member Position"
+msgstr ""
+
+#: ../inc/widgets/widget-team.php:54
+msgid "Team Member Detail"
+msgstr ""
+
+#: ../inc/widgets/widget-team.php:60
+msgid "Team Member Facebook url"
+msgstr ""
+
+#: ../inc/widgets/widget-team.php:65
+msgid "Team Member Twitter url"
+msgstr ""
+
+#: ../inc/widgets/widget-team.php:70
+msgid "Team Member Linkedin url"
+msgstr ""
+
+#: ../inc/widgets/widget-team.php:75
+msgid "Team Member Google Plus url"
+msgstr ""
+
+#: ../inc/widgets/widget-testimonial-slider.php:24
+msgid "A widget that shows Testimonial Slider"
+msgstr ""
+
+#: ../inc/widgets/widget-testimonial.php:24
+msgid "A widget that shows Testimonial"
+msgstr ""
+
+#: ../inc/widgets/widget-testimonial.php:39
+msgid "Client Image"
+msgstr ""
+
+#: ../inc/widgets/widget-testimonial.php:44
+msgid "Image Shape"
+msgstr ""
+
+#: ../inc/widgets/widget-testimonial.php:53
+msgid "Client Name"
+msgstr ""
+
+#: ../inc/widgets/widget-testimonial.php:58
+msgid "Client Position"
+msgstr ""
+
+#: ../inc/widgets/widget-testimonial.php:63
+msgid "Testimonial"
+msgstr ""
+
+#: ../inc/widgets/widget-toggle.php:24
+msgid "A widget that shows Toggle"
+msgstr ""
+
+#: ../inc/widgets/widget-toggle.php:43
+msgid "Toggle Title"
+msgstr ""
+
+#: ../inc/widgets/widget-toggle.php:49
+msgid "Toggle Content"
+msgstr ""
+
+#: ../inc/widgets/widget-toggle.php:55
+msgid "Toggle Status"
+msgstr ""
+
+#. Theme URI of the theme
+msgid "http://accesspressthemes.com/wordpress-themes/accesspress-pro/"
+msgstr ""
+
+#. Description of the theme
+msgid ""
+"AccessPress Pro is Premium version of AccessPress Lite. It is a clean, "
+"multipurpose, responsive, beautiful WordPress Theme. With its extensive "
+"theme option panel, you can create beautiful websites in no time. "
+"AccessPress Pro is translation ready and woocommerce compatible as well. "
+"AccessPress allows you to choose from 600+ attractive google fonts. It is "
+"RTL complatible as well. You can create unlimited Page layouts using our 10+ "
+"widgets, 10+ shortcode, page templates, 4 Header layouts. AccessPress Themes "
+"can be used as a corporate, portfolio, simple business, portable website."
+msgstr ""
+
+#. Author URI of the theme
+msgid "http://accesspressthemes.com"
+msgstr ""

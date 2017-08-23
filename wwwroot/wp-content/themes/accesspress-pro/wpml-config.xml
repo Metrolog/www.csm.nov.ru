@@ -1,0 +1,34 @@
+<wpml-config>
+    <admin-texts>
+        <key name="accesspress_pro_options">
+            <key name="read_more_text" />
+            <key name="welcome_post_readmore" />
+            <key name="event_page_title" />
+            <key name="featured_post_readmore" />
+            <key name="client_slider_heading" />
+            <key name="calltoaction_text" />
+            <key name="calltoaction_read_more_text" />
+            <key name="calltoaction_read_more_link" />
+            <key name="header_text" />
+            <key name="footer_copyright" />
+            <key name="right_footer_text" />
+            <key name="slider">
+            	<key name="*">
+            		<key name="caption_header"/>
+            		<key name="caption_desc"/>
+            		<key name="slider_read_more"/>
+            		<key name="slider_read_more_link"/>
+            	</key>
+        	</key>
+            <key name="breadcrumb_home_text" />
+            <key name="tc_day_text" />
+            <key name="tc_hours_text" />
+            <key name="tc_minutes_text" />
+            <key name="tc_seconds_text" />
+            <key name="tc_text" />
+            <key name="tc_social_text" />
+        </key>
+    </admin-texts>       
+</wpml-config>
+
+
