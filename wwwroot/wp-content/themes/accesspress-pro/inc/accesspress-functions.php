@@ -280,7 +280,7 @@ add_action( 'wp_enqueue_scripts', 'accesspress_pro_scripts' );
 function accesspress_dynamic_styles() {
 	wp_enqueue_style( 'accesspress_parallax-dynamic-style', get_template_directory_uri() . '/css/style.php' );
 }
-add_action( 'wp_enqueue_scripts', 'accesspress_dynamic_styles', 15 );
+// add_action( 'wp_enqueue_scripts', 'accesspress_dynamic_styles', 15 );
 
 /**
 * Loads up favicon
@@ -822,7 +822,8 @@ add_action( 'wp_enqueue_scripts', 'accesspress_dynamic_styles', 15 );
 		echo '</script>';
 	}
 
-	add_action('wp_head','accesspress_pro_custom_code'); 
+// ITG: этот код явно ошибочен и вставляет div в head, что недопустимо. Требовался только для поддержки facebook темой. Убираем.
+//	add_action('wp_head','accesspress_pro_custom_code'); 
 
 	function accesspress_share_script(){
 		global $accesspress_pro_options;
