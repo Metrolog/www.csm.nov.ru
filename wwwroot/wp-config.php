@@ -44,9 +44,11 @@ if ( file_exists( __DIR__ . DIRECTORY_SEPARATOR . 'wp-config-local.php' ) ) {
 
 	define( 'WP_CONTENT_URL', 'http://st.test.www.csm.nov.ru/wp-content' );
 	define( 'COOKIE_DOMAIN', 'test.www.csm.nov.ru' );
+
+	define( 'WPCACHEHOME', WP_CONTENT_DIR . DIRECTORY_SEPARATOR . 'plugins' . DIRECTORY_SEPARATOR . 'wp-super-cache' . DIRECTORY_SEPARATOR );
 };
 
-define( 'WPCACHEHOME', WP_CONTENT_DIR . DIRECTORY_SEPARATOR . 'plugins' . DIRECTORY_SEPARATOR . 'wp-super-cache' . DIRECTORY_SEPARATOR ); //Added by WP-Cache Manager
+define('WP_CACHE', true); //Added by WP-Cache Manager
 
 define( 'DB_CHARSET', 'utf8' );
 define( 'DB_COLLATE', '' );
